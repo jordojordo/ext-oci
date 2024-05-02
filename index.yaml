@@ -1,0 +1,23 @@
+apiVersion: v1
+entries:
+  oci-test:
+  - annotations:
+      catalog.cattle.io/certified: rancher
+      catalog.cattle.io/kube-version: '>= 1.16.0-0 < 1.29.0-0'
+      catalog.cattle.io/namespace: cattle-ui-plugin-system
+      catalog.cattle.io/os: linux
+      catalog.cattle.io/permits-os: linux, windows
+      catalog.cattle.io/rancher-version: '>= v2.8.3'
+      catalog.cattle.io/scope: management
+      catalog.cattle.io/ui-component: plugins
+    apiVersion: v2
+    appVersion: 0.1.0
+    created: "2024-05-02T15:10:56.581656405Z"
+    description: oci-test plugin
+    digest: 02f5db49240dd40b6a2a0eac58db178a2bdf127758159f5be6c5d172f3b56343
+    name: oci-test
+    type: application
+    urls:
+    - assets/oci-test/oci-test-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-05-02T15:10:56.581316965Z"
