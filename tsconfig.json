@@ -26,19 +26,24 @@
       ],
       "oci-test": [
         "./pkg/oci-test/types"
+      ],
+      "cluster-scoped-test": [
+        "./pkg/cluster-scoped-test/types"
       ]
     },
     "typeRoots": [
       "./node_modules",
       "./node_modules/@rancher/shell/types",
-      "./pkg/oci-test/types"
+      "./pkg/oci-test/types",
+      "./pkg/cluster-scoped-test/types"
     ],
     "types": [
       "@types/node",
       "cypress",
       "rancher",
       "shell",
-      "oci-test"
+      "oci-test",
+      "cluster-scoped-test"
     ]
   },
   "exclude": [
